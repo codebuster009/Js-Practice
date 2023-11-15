@@ -1,6 +1,7 @@
 const isPalindrome = require('./palindrome');
 
-const result1 = isPalindrome('racecar');
-const result2 = isPalindrome('racecars');
+const result1 = isPalindrome('madams');
+const result2 = isPalindrome('madam');
 
-console.log(result1, result2);
+console.log(result1);
+console.log(result2);
