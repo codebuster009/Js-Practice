@@ -1,5 +1,5 @@
 const displayLikes = require('./display-likes');
 
-const result = displayLikes(['Alex', 'Jacob', 'Mark', 'Max', 'Jill']);
+const result = displayLikes(["Kavya" , "Kartavya" , "Kashish" , "Karan" , "Ghanu"]);
 
 console.log(result);
