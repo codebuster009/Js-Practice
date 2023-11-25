@@ -1,33 +1,25 @@
-function calculator(num1, num2, operator) {
-   let result;
-   console.log(num1 , num2)
-   console.log("going inside switch")
-   console.log(operator)
-  switch (operator) {
-    case "+":
-      console.log("adding")
-      result = num1 + num2;
-      console.log(result) 
-      break;
-    case "*":
-      console.log("multiplying")
-     result = num1 * num2;
-      return result
-      break;
-    case "-":
-      console.log("substracting")
-      result =  num1 - num2;
-      return result
-      break;
-    case  "/":
-      console.log("dividing")
-      result =  num1 / num2;
-      return result
-      break;
-      default:
-         console.log("okay")
+function calculator(num1 , num2 , operator) {
+switch(operator) {
+  case "-" : {
+   return num1 - num2
   }
-  
+  break;
+  case "+" : {
+    return num1 + num2
+  }
+  break;
+  case "/": {
+    return num1/num2
+  }
+  break;
+  case "*" : {
+   return num1 * num2
+  }
+  break;
+  default: {
+    return "Please Specify the calculation you want to perform"
+  }
+}
 }
 
 module.exports = calculator;
