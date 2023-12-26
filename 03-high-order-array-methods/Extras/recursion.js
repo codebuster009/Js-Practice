@@ -1,49 +1,48 @@
-// Que:
+//Que:
 
 // Given n 
 
 // Print sum from 1 to n
 //wrong way
-let n = 10
-let sum = 0
-function add (num) {
-    let prev = num - 1
-    console.log(prev)
-    sum += num + prev
-    console.log(sum)
-    if(prev === 0) {
-      console.log( "Thats It") 
-    } else {
-        add(prev)
+
+//Que
+
+// function factorial (num) {
+//     if (num === 1) return num;
+//     else{
+//        return num * factorial(num - 1);
+//     }
+// }
+// console.log(factorial(2));
+// let sum = 0
+
+function fibonacci (num) {
+    if (num <= 0) return num;
+    else {
+    prev = num - 1
+    parentPrev = num - 2
+   return sum = prev + parentPrev
     }
-}
-add(10)
-console.log(sum)
+}     
 
-//way 1
-Add(num) {
-    If(num === 1) return 1;
- 
-    return num + Add(num-1)
- }
+fibonacci(3)
 
-//way 2
-let n = 10;
-let sum = 0;
+// function fibonacci (num) {
+//     console.log(num)
+//     for(let i = 0 ; i <=num ; i++) {
+//         console.log(i)
+//         sum = i + 1
+//         let a = sum + i
+//         console.log(a)
+//         console.log(sum)
+//     }
+//     return sum
+//     }
+// fibonacci(3)
 
-function add(num) {
-    sum += num; // Add only the current number to the sum
-    console.log(num);
-    console.log(sum);
+// 0 + 1 = 1
+// 1 + num + 1 = 2
+// 2 + num + 1 = 3 
+// 3 + num + 1 = 3
 
-    let prev = num - 1;
-
-    if (prev === 0) {
-        console.log("Thats It");
-    } else {
-        add(prev);
-    }
-}
-
-add(n);
-console.log(sum);
+Note Always first look for how to put break statement , trick jo hume pta ha vo break statement mein jaaega suppose hume recursion ex mein 0 , 1 , 2 ye pta  tha
