@@ -45,4 +45,4 @@ fibonacci(3)
 // 2 + num + 1 = 3 
 // 3 + num + 1 = 3
 
-Note Always first look for how to put break statement , trick jo hume pta ha vo break statement mein jaaega suppose hume recursion ex mein 0 , 1 , 2 ye pta  tha
+//Note Always first look for how to put break statement , trick jo hume pta ha vo break statement mein jaaega suppose hume recursion ex mein 0 , 1 , 2 ye pta  tha
